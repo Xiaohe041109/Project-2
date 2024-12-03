@@ -26,17 +26,78 @@ Installation and Instruction to use:
       Allow inventory updates and new resource additions.
       Save and load resource data from a file.
 
-Systematic Structure:
-  The program is implemented using an object-oriented approach within a single class, DisasterReliefSystem.
-    Class: DisasterReliefSystem
-      Attributes:
-        resources_data: Stores the inventory of supplies and shelters.
-      Methods:
-        __init__: Initializes the system with data.
-        calculate_distance: Computes geographic distance.
-        find_nearest_resources: Finds and sorts nearest resources.
-        update_inventory: Updates stock levels for supplies.
-        add_new_resource: Adds new resources.
-        save_data_to_file: Saves data to a JSON file.
-        load_data_from_file: Loads data from a JSON file.
+Structure of the code:
+  Systematic Structure:
+    The program is implemented using an object-oriented approach within a single class, DisasterReliefSystem.
+      Class: DisasterReliefSystem
+        Attributes:
+          resources_data: Stores the inventory of supplies and shelters.
+        Methods:
+          __init__: Initializes the system with data.
+          calculate_distance: Computes geographic distance.
+          find_nearest_resources: Finds and sorts nearest resources.
+          update_inventory: Updates stock levels for supplies.
+          add_new_resource: Adds new resources.
+          save_data_to_file: Saves data to a JSON file.
+          load_data_from_file: Loads data from a JSON file.
+  
+Functionalities and Test Results:
+  Functionalities:
+    Find Nearest Resources:
+      Inputs: User location and resource type ("supplies" or "shelters").
+      Output: List of nearest resources/shelters sorted by distance.
+      Example:
+        Nearest supplies:
+          Water Bottles - 15000 in stock - 1.13 km away.
+        Nearest shelters:
+          Lares Shelter - 0.05 km away
+    Update Inventory:
+      Inputs: Resource name, location, and new stock value.
+      Output: Updated inventory or an error message if not found.
+      Example:
+        Updated Water Bottles at (40.1247, -75.1161) to 1200 items.
+    Add New Resource:
+      Inputs: Resource name, stock, and location.
+      Output: Confirmation message for added resource.
+      Example:
+        Added Blankets with 1100 items at location (40.1144, -75.1114).
+    Data Persistence:
+      Data saved to and loaded from resources.json.
+    Test Results:
+      User at (40.1165, -75.1083) finds nearest resources, shelters and updates inventory:
+        Output:
+          Nearest supplies:
+            Canned Food - 25000 in stock - 1.10 km away.
+            First Aid Kits - 10000 in stock - 1.11 km away.
 
+          Nearest shelters:
+            Lares Shelter - 0.05 km away
+            Woodland Shelter - 0.35 km away
+
+          Updates inventory:
+            Updated Water Bottles at (40.1247, -75.1161) to 1200 items.
+
+Showcasing the achievement of project goals:
+  The project successfully meets its objectives:
+    1. Resource Allocation: Implements distance-based prioritization for disaster resources.
+    2. Inventory Management: Allows real-time updates to inventory.
+    3. Data Persistence: Facilitates saving and reloading of resource data.
+  For example, a user in Abington can:
+    Locate the nearest supplies and shelters to their location.
+    Receive up-to-date stock information for essentials.
+  This ensures timely resource allocation during emergencies.
+
+Discussion and Conclusions:
+  Issues and Limitations.
+    Static data: The system currently uses predefined data and lacks real-time updates.
+    User interface: no graphical user interface (GUI) has been implemented.
+    Limited scope: designed primarily for hurricane scenarios and may need to be adapted for other hazards.
+  Application of course study:
+    Object-oriented programming: used to encapsulate functionality and ensure modularity.
+    Data Structures: for efficient data storage and manipulation using dictionaries and lists.
+    Algorithms: Implementation of the Haversine formula for distance calculation.
+    File Processing: Integration of JSON-based data persistence.
+  Future enhancements:
+    Integration with APIs for real-time weather updates and inventory tracking.
+    Develop web or mobile applications for easy access.
+    Expanded scope to include evacuation route planning and real-time resource availability.
