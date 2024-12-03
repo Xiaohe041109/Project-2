@@ -25,3 +25,18 @@ Installation and Instruction to use:
       Show the nearest supplies and shelters for a user near Penn State Abington.
       Allow inventory updates and new resource additions.
       Save and load resource data from a file.
+
+Systematic Structure:
+  The program is implemented using an object-oriented approach within a single class, DisasterReliefSystem.
+    Class: DisasterReliefSystem
+      Attributes:
+        resources_data: Stores the inventory of supplies and shelters.
+      Methods:
+        __init__: Initializes the system with data.
+        calculate_distance: Computes geographic distance.
+        find_nearest_resources: Finds and sorts nearest resources.
+        update_inventory: Updates stock levels for supplies.
+        add_new_resource: Adds new resources.
+        save_data_to_file: Saves data to a JSON file.
+        load_data_from_file: Loads data from a JSON file.
+
