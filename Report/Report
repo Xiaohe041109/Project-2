@@ -1,6 +1,27 @@
 Goal of the project:
-The goal of this project is to develop a disaster relief resource management system to assist in hurricane relief efforts. The system can perform the following functions:
-Users find the nearest supply and shelter based on their geographic location.
-Resource providers (e.g., shelters or supply depots) manage inventories of essential items.
-Efficiently allocate disaster relief resources by centralizing data and making quick decisions.
+  The goal of this project is to develop a disaster relief resource management system to assist in hurricane relief efforts. The system can perform the following functions:
+    Users find the nearest supply and shelter based on their geographic location.
+    Resource providers (e.g., shelters or supply depots) manage inventories of essential items.
+    Efficiently allocate disaster relief resources by centralizing data and making quick decisions.
 
+Significance of the project:
+  Hurricanes can cause widespread damage, disrupt supply chains, and place a huge burden on relief efforts. The project is innovative in its ability to address these challenges by:
+    Providing a modular, scalable solution to effectively manage disaster resources.
+    Providing users with real-time updates and distance-based prioritization.
+    Utilizing programming principles such as object-oriented design to achieve maintainability and extensibility.
+    Provide flexible extensions to use real-time APIs for weather updates or resource tracking.
+    The system is significant because it combines technical knowledge with real-world applications to aid in disaster preparedness and response, potentially saving lives and resources.
+
+Installation and Instruction to use:
+  Installation:
+    1. Ensure Python 3.8+ is installed.
+    2. Install required libraries:
+      pip install json
+    3. Clone or download the project files to your local system.
+  Usage:
+    1. Run the program:
+      python disaster_relief_system.py
+    2. The main script will:
+      Show the nearest supplies and shelters for a user near Penn State Abington.
+      Allow inventory updates and new resource additions.
+      Save and load resource data from a file.
