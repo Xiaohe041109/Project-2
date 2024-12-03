@@ -1,1 +1,6 @@
+Goal of the project:
+The goal of this project is to develop a disaster relief resource management system to assist in hurricane relief efforts. The system can perform the following functions:
+Users find the nearest supply and shelter based on their geographic location.
+Resource providers (e.g., shelters or supply depots) manage inventories of essential items.
+Efficiently allocate disaster relief resources by centralizing data and making quick decisions.
 
