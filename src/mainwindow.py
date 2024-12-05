@@ -63,12 +63,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pages.setCurrentIndex(2)
         
     def open_github(self):
-        url = "https://www.youtube.com/"
+        url = "https://github.com/Xiaohe041109/Project-2"
         
         QDesktopServices.openUrl(url)
     
     def open_github_about(self):
-        url = "https://www.google.com/"
+        url = "https://github.com/Xiaohe041109/Project-2"
         
         QDesktopServices.openUrl(url)
     
