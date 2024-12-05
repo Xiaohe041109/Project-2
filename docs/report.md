@@ -12,3 +12,16 @@ Providing a simple and scalable solution to manage disaster resources effectivel
   - Utilizing programming principles such as object-oriented design to achieve maintainability and extensibility.
   - Provide users with real-time updates using APIs for weather updates or resource tracking.
   - The system is significant because it combines technical knowledge with real-world applications to aid in disaster preparedness and response, potentially saving lives and resources.
+
+## Discussion and Conclusions:
+Some discussions and conclusions we drew from this project were parts of the system currently use predefined data and lack real-time updates and that despite the inclusion of forecasting this project was designed primarily for hurricane scenarios and may need to be adapted for other hazards. 
+
+## Future Upgrades
+Some future upgrades and economies we can begin discussing and implementing are Integration with APIs for real-time weather updates and inventory tracking, developing web or mobile applications for easy access, and expanded scope to include evacuation route planning and real-time resource availability.
+
+## Application of course study:
+Areas where we applied our course learning to this project were: 
+  - Object-oriented programming: used to encapsulate functionality and ensure modularity.
+  - Data Structures: for efficient data storage and manipulation using dictionaries and lists.
+  - Algorithms: Implementation of the Haversine formula for distance calculation.
+  - File Processing: Integration of JSON-based data persistence.
