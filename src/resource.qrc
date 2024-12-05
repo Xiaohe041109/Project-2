@@ -1,0 +1,18 @@
+<RCC>
+  <qresource>
+    <file>images/rulerPencil.png</file>
+    <file>images/homeIcon.png</file>
+    <file>images/tracker.png</file>
+    <file>images/about.png</file>
+    <file>images/checklist.png</file>
+    <file>images/clouds.png</file>
+    <file>images/farenheit.png</file>
+    <file>images/gitHub.png</file>
+    <file>images/home.png</file>
+    <file>images/hurricane.png</file>
+    <file>images/preperation.png</file>
+    <file>images/refresh.png</file>
+    <file>images/waffleMenu.png</file>
+    <file>images/wind.png</file>
+  </qresource>
+</RCC>
