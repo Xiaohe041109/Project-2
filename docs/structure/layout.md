@@ -31,3 +31,13 @@
 4. mainwindow.ui
    - Description
       - File used by QT Designer to create and store GUI 
+5. /Hurricane Prep or Resource Prep.py
+   - Attributes
+      - resources_data: Stores the inventory of supplies and shelters
+   - Methods
+      - __init__: Initializes the system with data.
+      - calculate_distance: Computes geographic distance.
+      - find_nearest_resources: Finds and sorts nearest resources.
+      - update_inventory: Updates stock levels for supplies.
+      - save_data_to_file: Saves data to a JSON file.
+      - load_data_from_file: Loads data from a JSON file.
