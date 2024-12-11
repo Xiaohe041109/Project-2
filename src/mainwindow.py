@@ -91,9 +91,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         params = x.get_forecast()
         return str(params["description"])
     
-        #formatted_description = params["description"].replace(". ", ".\n")
-        #return str(formatted_description)
-    
     def get_tomorrows_temperature(self):
         x = HurricaneTracker(self.latitude, self.longitude)
         
