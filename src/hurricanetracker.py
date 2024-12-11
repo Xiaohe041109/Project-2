@@ -13,7 +13,7 @@ class HurricaneTracker:
             "event": "Hurricane"
         }
         self.headers = {
-            "User-Agent": "Hurricane Gaurd/1.0 stevensblantrice@gmail.com"
+            "User-Agent": "Hurricane Gaurd/1.0"
         }
     
     # Retrieves the gridpoint information for a specific latitude & longitude
