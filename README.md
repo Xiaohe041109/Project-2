@@ -13,6 +13,10 @@ system to assist in hurricane relief efforts.
 6. Run the Python scripts directly using your Python environment.
 
 ## USAGE & INSTRUCTIONS
+## Install PySide6
+```python
+pip install pyside6
+```
 ## Importing Proper Components
 ```python
 from PySide6.QtWidgets import QApplication, QWidget, QMainWindow, QPushButton
