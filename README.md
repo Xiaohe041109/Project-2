@@ -13,3 +13,24 @@ system to assist in hurricane relief efforts.
 6. Run the Python scripts directly using your Python environment.
 
 ## USAGE & INSTRUCTIONS
+## Importing Proper Components
+```python
+from PySide6.QtWidgets import QApplication, QWidget, QMainWindow, QPushButton
+from mainwindow import MainWindow
+import sys    
+
+```
+## Setting Up Your Location (REPLACE WITH DESIRED LATITUDE & LONGITUDE)
+```python
+latitude = 40.8448
+longitude = -73.8648
+```
+## Running The GUI
+```python
+app = QApplication(sys.argv)
+
+main_window = MainWindow(app, latitude, longitude)
+main_window.show()
+
+app.exec()
+```
